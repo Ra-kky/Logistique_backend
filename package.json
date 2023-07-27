@@ -1,0 +1,23 @@
+{
+  "name": "logistique_backend",
+  "version": "1.0.0",
+  "description": "Backend for Rakky team's Logistique app",
+  "main": "index.js",
+  "repository": "https://github.com/Ra-kky/Logistique_backend.git",
+  "author": "Odili1 <ezedigwegerald1@gmail.com>, Radi <evaradi18@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1"
+  }
+}
